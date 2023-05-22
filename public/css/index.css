@@ -22,3 +22,67 @@
 .lesson-four-task-six .btn:focus {
     background-color: orange;
 }
+
+.lesson-four-task-seven #target:target {
+    color: white;
+    background-color: green;
+}
+
+.lesson-four-task-eight #checkbox:checked+div#target {
+    color: white;
+    background-color: blue;
+}
+
+p:lang(uk) {
+    color: blue;
+}
+
+.lesson-four-task-ten input:enabled {
+    color: red;
+    background-color: yellow;
+}
+
+.lesson-four-task-eleven input:disabled {
+    background-color: yellow;
+}
+
+.lesson-four-task-twelve input:read-write {
+    background-color: yellow;
+}
+
+.lesson-four-task-thirteen input:read-only {
+    background-color: yellow;
+}
+
+.lesson-four-task-fourteen input:valid {
+    background-color: green;
+}
+
+.lesson-four-task-fourteen input:invalid {
+    background-color: red;
+}
+
+.lesson-four-task-fifteen input:optional {
+    background-color: red;
+}
+
+.lesson-four-task-sixteen input:out-of-range {
+    color: red;
+}
+
+.lesson-four-task-seventeen input:in-range {
+    color: red;
+}
+
+.lesson-four-task-eighteen input:placeholder-shown {
+    background-color: red;
+}
+
+.lesson-four-task-nineteen .btn-group:focus-within {
+    color: white;
+    background-color: yellow;
+}
+
+.lesson-four-task-twenty input:invalid {
+    background-color: red;
+}
